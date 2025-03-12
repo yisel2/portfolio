@@ -10,7 +10,7 @@ export default function Henry() {
     <Card>
       <div className="flex flex-col gap-2">
         <Typography variant="h2">Henry</Typography>
-        <Typography variant="h3">Frontend Developer - SSR</Typography>
+        <Typography variant="h3">Frontend Developer</Typography>
         <Divider />
         <Typography variant="h3">
           Fui responsable del desarrollo y mantenimiento de las funcionalidades

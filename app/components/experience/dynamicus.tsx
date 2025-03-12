@@ -11,9 +11,7 @@ export default function DynamicUs() {
     <Card>
       <div className="flex flex-col gap-2  h-full">
         <Typography variant="h2">DynamicUs</Typography>
-        <Typography variant="h3">
-          Frontend Developer - SSR - Freelance
-        </Typography>
+        <Typography variant="h3">Frontend Developer - Freelance</Typography>
         <Divider />
         <Typography variant="h3">
           Fui responsable del desarrollo completo y mantenimiento del frontend

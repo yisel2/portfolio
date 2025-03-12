@@ -20,9 +20,7 @@ export default function HenryPage() {
                 <ArrowLeft />
               </Button>
             </Link>
-            <Typography variant="h1">
-              Henry - Frontend Developer - SSR
-            </Typography>
+            <Typography variant="h1">Henry - Frontend Developer</Typography>
           </Card>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function DynamicUsPage() {
               </Button>
             </Link>
             <Typography variant="h1">
-              DynamicUs - Frontend Developer - SSR - Freelance
+              DynamicUs - Frontend Developer - Freelance
             </Typography>
           </Card>
         </div>
