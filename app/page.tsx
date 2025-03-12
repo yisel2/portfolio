@@ -2,23 +2,26 @@ import About from "./components/about";
 import Experience from "./components/experience/experience";
 import Logo from "./components/logo";
 import Whoami from "./components/whoami";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={`${styles.page} flex flex-col gap-4`}>
-      <div className="flex gap-4">
-        <div className="w-[300px]">
+    <>
+      <div className="grid lg:grid-cols-6 gap-4 grid-cols-1">
+        <div className="lg:col-span-1">
           <Logo />
         </div>
-        <Whoami />
+        <div className="lg:col-span-5">
+          <Whoami />
+        </div>
       </div>
-      <div className="flex gap-4">
-        <div className="w-[300px]">
+      <div className="grid lg:grid-cols-6 gap-4">
+        <div className="lg:col-span-1">
           <About />
         </div>
-        <Experience />
+        <div className="lg:col-span-5">
+          <Experience />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

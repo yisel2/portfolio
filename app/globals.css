@@ -54,3 +54,13 @@ a {
   );
   animation: rainbow-gradient 5s linear alternate infinite;
 }
+
+/* sm: 640px (pequeño)
+
+md: 768px (mediano)
+
+lg: 1024px (grande)
+
+xl: 1280px (extra grande)
+
+2xl: 1536px (extra extra grande) */

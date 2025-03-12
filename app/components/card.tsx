@@ -7,7 +7,7 @@ export default function Card({
 }) {
   return (
     <div
-      className={`flex flex-col bg-white p-6 rounded-lg shadow-md border border-deepseek-light-gray ${className}`}
+      className={`h-full flex flex-col bg-white p-6 rounded-lg shadow-md border border-deepseek-light-gray ${className}`}
     >
       {children}
     </div>

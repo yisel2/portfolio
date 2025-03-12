@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../button";
 import Card from "../card";
 import Divider from "../divider";
@@ -35,11 +36,11 @@ export default function Henry() {
           <Tag className="border border-[#FFF9C4] text-[#F57F17]">SWR</Tag>
         </div>
       </div>
-      <div className="flex mt-4">
+      <Link href="/henry" className="flex mt-4">
         <Button type="outlined" className="w-full">
           Ver más
         </Button>
-      </div>
+      </Link>
     </Card>
   );
 }

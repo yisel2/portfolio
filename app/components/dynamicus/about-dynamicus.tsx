@@ -4,7 +4,7 @@ import Typography from "../typography";
 
 export default function AboutDynamicUs() {
   return (
-    <Card className="w-[300px]">
+    <Card>
       <div className="flex flex-col gap-2">
         <Typography variant="h1">Sobre DynamicUs</Typography>
         <p>

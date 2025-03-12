@@ -1,4 +1,4 @@
-import Button from "../button";
+// import Button from "../button";
 import Card from "../card";
 import Divider from "../divider";
 import Tag from "../tag";
@@ -28,11 +28,11 @@ export default function Increase() {
           <Tag className="border border-[#FFE0B2] text-[#E65100]">CSS</Tag>
         </div>
       </div>
-      <div className="flex mt-auto">
+      {/* <div className="flex mt-auto">
         <Button type="outlined" className="w-full">
           Ver más
         </Button>
-      </div>
+      </div> */}
     </Card>
   );
 }
