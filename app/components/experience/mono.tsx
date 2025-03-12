@@ -9,7 +9,7 @@ export default function Mono() {
     <Card>
       <div className="flex flex-col gap-2">
         <Typography variant="h2">Mono! Diseño gráfico</Typography>
-        <Typography variant="h3">Maquetadora Web - JR - Freelance</Typography>
+        <Typography variant="h3">Maquetadora Web - Freelance</Typography>
         <Divider />
         <Typography variant="h3">
           Fui responsable de la maquetación de sitios web

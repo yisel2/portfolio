@@ -9,7 +9,7 @@ export default function Increase() {
     <Card>
       <div className="flex flex-col gap-2">
         <Typography variant="h2">Increase</Typography>
-        <Typography variant="h3">Frontend Developer - JR</Typography>
+        <Typography variant="h3">Frontend Developer</Typography>
         <Divider />
         <Typography variant="h3">
           Fui responsable del desarrollo y mantenimiento de la plataforma
