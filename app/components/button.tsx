@@ -10,9 +10,10 @@ export default function Button({
   onClick?: () => void;
 }) {
   const classes = {
-    primary: "py-2 px-6 rounded-4xl text-xl w-fit text-white bg-deepseek-blue",
+    primary:
+      "py-1 px-6 rounded-4xl text-xl w-fit text-white bg-deepseek-blue hover:bg-deepseek-dark-blue transition-colors",
     outlined:
-      "py-2 px-6 rounded-4xl text-xl w-fit border border-deepseek-blue text-deepseek-blue hover:bg-deepseek-blue hover:text-white transition-colors",
+      "py-1 px-6 rounded-4xl text-xl w-fit border border-deepseek-blue text-deepseek-blue hover:bg-deepseek-blue hover:text-white transition-colors",
     "no-styles": "",
   };
   return (

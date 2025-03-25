@@ -1,5 +1,5 @@
 import About from "./components/about";
-import Experience from "./components/experience/experience";
+import Experience from "./components/experience";
 import Logo from "./components/logo";
 import Whoami from "./components/whoami";
 

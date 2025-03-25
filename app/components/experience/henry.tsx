@@ -7,8 +7,8 @@ import Typography from "../typography";
 
 export default function Henry() {
   return (
-    <Card>
-      <div className="flex flex-col gap-2">
+    <Card variant="high-contrast">
+      <div className="flex flex-col gap-2 h-full">
         <Typography variant="h2">Henry</Typography>
         <Typography variant="h3">Frontend Developer</Typography>
         <Divider />
@@ -17,30 +17,22 @@ export default function Henry() {
           de la aplicación de Henry
         </Typography>
         <div className="flex gap-2 flex-wrap">
-          <Tag className="border border-[#E8F5E9] text-[#1B5E20]">React</Tag>
-          <Tag className="border border-[#E3F2FD] text-[#0D47A1]">Next</Tag>
-          <Tag className="border border-[#FFF9C4] text-[#F57F17]">
-            TypeScript
-          </Tag>
-          <Tag className="border border-[#FFEBEE] text-[#C62828]">
-            MDBootstrap
-          </Tag>
-          <Tag className="border border-[#F3E5F5] text-[#6A1B9A]">
-            Ant Design
-          </Tag>
-          <Tag className="border border-[#FFE0B2] text-[#E65100]">Formik</Tag>
-          <Tag className="border border-[#E8F5E9] text-[#1B5E20]">
-            React Final Form
-          </Tag>
-          <Tag className="border border-[#E3F2FD] text-[#0D47A1]">Axios</Tag>
-          <Tag className="border border-[#FFF9C4] text-[#F57F17]">SWR</Tag>
+          <Tag className=" bg-green-bg text-green-text">React</Tag>
+          <Tag className=" bg-blue-bg text-blue-text">Next</Tag>
+          <Tag className=" bg-yellow-bg text-yellow-text">TypeScript</Tag>
+          <Tag className=" bg-red-bg text-red-text">MDBootstrap</Tag>
+          <Tag className=" bg-purple-bg text-purple-text">Ant Design</Tag>
+          <Tag className=" bg-orange-bg text-orange-text">Formik</Tag>
+          <Tag className=" bg-green-bg text-green-text">React Final Form</Tag>
+          <Tag className="bg-blue-bg text-blue-text">Axios</Tag>
+          <Tag className="bg-yellow-bg text-yellow-text">SWR</Tag>
         </div>
+        <Link href="/henry" className="flex mt-auto pt-4">
+          <Button type="primary" className="w-full">
+            Ver más
+          </Button>
+        </Link>
       </div>
-      <Link href="/henry" className="flex mt-4">
-        <Button type="outlined" className="w-full">
-          Ver más
-        </Button>
-      </Link>
     </Card>
   );
 }

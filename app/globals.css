@@ -4,9 +4,25 @@
   --color-deepseek-blue: #1a73e8;
   --color-deepseek-dark-blue: #0d47a1;
   --color-deepseek-light-gray: #f5f5f5;
+  --color-deepseek-lighter-gray: #f5f5f5;
   --color-deepseek-dark-gray: #424242;
   --color-deepseek-accent-green: #34a853;
   --color-deepseek-accent-orange: #fb8c00;
+
+  /* tags */
+  --color-green-bg: #cff5d2;
+  --color-blue-bg: #e3f2fd;
+  --color-yellow-bg: #fff9c4;
+  --color-red-bg: #ffebee;
+  --color-purple-bg: #f3e5f5;
+  --color-orange-bg: #ffe0b2;
+
+  --color-green-text: #1b5e20;
+  --color-blue-text: #0d47a1;
+  --color-yellow-text: #f57f17;
+  --color-red-text: #c62828;
+  --color-purple-text: #6a1b9a;
+  --color-orange-text: #e65100;
 
   @keyframes rainbow-gradient {
     0% {
@@ -19,8 +35,36 @@
 }
 
 :root {
-  --background: #f5f5f5;
+  --background: #e0e0e0;
   --foreground: #424242;
+}
+
+[data-theme="dark"] {
+  --background: #424242;
+  --foreground: #e0e0e0;
+
+  --color-deepseek-blue: #1a73e8;
+  --color-deepseek-dark-blue: #0d47a1;
+  --color-deepseek-light-gray: #1e1e1e;
+  --color-deepseek-lighter-gray: #3a3737;
+  --color-deepseek-dark-gray: #f5f5f5;
+  --color-deepseek-accent-green: #34a853;
+  --color-deepseek-accent-orange: #fb8c00;
+
+  /* tags */
+  --color-green-bg: #2e7d32;
+  --color-blue-bg: #1565c0;
+  --color-yellow-bg: #b0861a;
+  --color-red-bg: #b71c1c;
+  --color-purple-bg: #8e24aa;
+  --color-orange-bg: #ef6c00;
+
+  --color-green-text: white;
+  --color-blue-text: white;
+  --color-yellow-text: white;
+  --color-red-text: white;
+  --color-purple-text: white;
+  --color-orange-text: white;
 }
 
 html,

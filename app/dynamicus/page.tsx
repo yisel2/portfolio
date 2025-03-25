@@ -144,7 +144,7 @@ export default function DynamicUsPage() {
                 className="rounded-lg shadow-md"
               />
             </div>
-            <Divider className="mt-8" />
+            {/* <Divider className="mt-8" /> */}
             {/* TODO: agregar capturas al carrusel */}
             {/* <div className="flex flex-col gap-12 mt-6 justify-between items-center">
             <Typography variant="h1">Capturas</Typography>
