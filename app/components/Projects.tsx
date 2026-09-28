@@ -1,10 +1,7 @@
-"use client";
-
-import { motion } from "motion/react";
-import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
-
-const EASE = [0.16, 1, 0.3, 1] as const;
+import ProjectCard from "./ProjectCard";
+import { Fragment } from "react/jsx-runtime";
+import { getTranslations } from "next-intl/server";
 
 const projects = [
   {
@@ -33,8 +30,8 @@ const projects = [
   },
 ];
 
-export default function Projects() {
-  const t = useTranslations("Projects");
+export default async function Projects() {
+  const t = await getTranslations("Projects");
 
   return (
     <section
@@ -52,47 +49,9 @@ export default function Projects() {
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2">
         {projects.map((project, i) => (
-          <Reveal
-            key={project.key}
-            delay={0.05 * i}
-            className={project.size === "lg" ? "sm:col-span-2" : ""}
-          >
-            <motion.article
-              whileHover={{ y: -4 }}
-              transition={{ duration: 0.25, ease: EASE }}
-              className="group flex h-full flex-col justify-between rounded-2xl border border-line bg-surface p-6 transition-colors hover:border-line-strong"
-            >
-              <div>
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <h3 className="font-sans text-lg font-medium">
-                      {t(`items.${project.key}.title`)}
-                    </h3>
-                    <p className="mt-0.5 font-mono text-xs text-ink-faint">
-                      {project.company}
-                    </p>
-                  </div>
-                  <span className="shrink-0 rounded-full border border-line px-2.5 py-1 font-mono text-xs text-ink-muted">
-                    {t(`items.${project.key}.tag`)}
-                  </span>
-                </div>
-                <p className="mt-4 max-w-xl font-sans text-sm leading-relaxed text-ink-muted">
-                  {t(`items.${project.key}.description`)}
-                </p>
-              </div>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-                {project.stack.map((tech) => (
-                  <span
-                    key={tech}
-                    className="rounded-full border border-line px-2.5 py-1 font-mono text-xs text-ink-faint"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </motion.article>
-          </Reveal>
+          <Fragment key={`project-${i}-${project.key}`}>
+            <ProjectCard project={project} index={i} />
+          </Fragment>
         ))}
       </div>
     </section>
