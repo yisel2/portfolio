@@ -1,0 +1,82 @@
+{
+  "Nav": {
+    "perfil": "Profile",
+    "proyectos": "Projects",
+    "experiencia": "Experience",
+    "contacto": "Contact",
+    "cta": "Let's talk"
+  },
+  "Hero": {
+    "badge": "Available for new projects",
+    "title": "I design systems. I build interfaces.",
+    "subtitle": "Frontend developer with 6+ years building products in React — from architecture down to every reusable component. I now use AI tools to go from idea to screen in record time.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Get in touch"
+  },
+  "About": {
+    "label": "Profile",
+    "heading": "6+ years turning ideas into working screens.",
+    "paragraph1": "I'm a frontend developer specialized in React, CSS and JavaScript. I focus on building dynamic, optimized digital experiences with clean, scalable code — and on bringing AI tools into both development and screen design to speed up my workflow.",
+    "paragraph2": "I'm organized, self-taught and problem-solving oriented. I enjoy working on ambitious projects with positive teams, exploring both frontend and backend to deliver complete solutions."
+  },
+  "Projects": {
+    "label": "Projects",
+    "heading": "A few products I worked on end to end.",
+    "items": {
+      "sellers": {
+        "title": "Universo de Sellers",
+        "tag": "B2B product",
+        "description": "B2B platform for the internal team and sellers to manage onboarding and integration across multiple marketplaces. As the sole frontend developer, I structured it from scratch using the container-view pattern, and designed its screens with AI support."
+      },
+      "componentLibrary": {
+        "title": "Component library",
+        "tag": "Design system",
+        "description": "Component system built from scratch with Storybook and CSS Modules, adopted across every application in the company."
+      },
+      "colegioAbogados": {
+        "title": "Colegio de Abogados de La Plata",
+        "tag": "Freelance",
+        "description": "Full frontend development of the Colegio de Abogados de La Plata application, as sole frontend developer, using Refine, Ant Design and Styled Components. Worked closely with backend to define data flows and architecture."
+      },
+      "platform": {
+        "title": "Platform",
+        "tag": "Product",
+        "description": "Platform, the application that centralizes user access to Increase's products. Designed intuitive, responsive interfaces with a focus on accessibility and user experience."
+      }
+    }
+  },
+  "Experience": {
+    "label": "Experience",
+    "heading": "Professional background",
+    "roles": {
+      "avenida": {
+        "period": "Apr 2025 — present",
+        "role": "Software Developer",
+        "description": "Sole frontend developer for Universo de Sellers. Structured the application from scratch, made product decisions, and designed screens with AI support."
+      },
+      "dynamicus": {
+        "period": "Nov 2023 — Sept 2025",
+        "role": "Frontend Developer (Freelance)",
+        "description": "Full frontend development across multiple web applications, working closely with the backend team."
+      },
+      "henry": {
+        "period": "Nov 2021 — Jan 2025",
+        "role": "Frontend Developer",
+        "description": "Implemented key features and built the company's component library from scratch."
+      },
+      "increase": {
+        "period": "Aug 2020 — Nov 2021",
+        "role": "Frontend Developer",
+        "description": "Maintained the main user-facing platform and continuously improved the product experience."
+      }
+    }
+  },
+  "Contact": {
+    "label": "Contact",
+    "location": "Córdoba, Argentina · Available for remote work.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "downloadCv": "Download CV",
+    "footer": "Gisella Alaniz — built with Next.js, Tailwind CSS and Motion"
+  }
+}

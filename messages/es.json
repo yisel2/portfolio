@@ -1,0 +1,82 @@
+{
+  "Nav": {
+    "perfil": "Perfil",
+    "proyectos": "Proyectos",
+    "experiencia": "Experiencia",
+    "contacto": "Contacto",
+    "cta": "Hablemos"
+  },
+  "Hero": {
+    "badge": "Disponible para nuevos proyectos",
+    "title": "Diseño sistemas. Escribo interfaces.",
+    "subtitle": "Frontend developer con más de 6 años construyendo productos en React — desde la arquitectura hasta cada componente reutilizable. Hoy sumo herramientas de IA para pasar de la idea a la pantalla en tiempo récord.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Escribime"
+  },
+  "About": {
+    "label": "Perfil",
+    "heading": "Más de 6 años convirtiendo ideas en pantallas funcionales.",
+    "paragraph1": "Soy desarrolladora frontend, especializada en React, CSS y JavaScript. Me especializo en crear experiencias digitales dinámicas y optimizadas, con un enfoque en código limpio y escalable — y en incorporar herramientas de IA tanto al desarrollo como al diseño de pantallas para acelerar mis procesos de trabajo.",
+    "paragraph2": "Soy una persona organizada, autodidacta y orientada a la resolución de problemas. Disfruto trabajar en proyectos ambiciosos con equipos positivos, explorando tanto el frontend como el backend para ofrecer soluciones completas."
+  },
+  "Projects": {
+    "label": "Proyectos",
+    "heading": "Algunos productos en los que trabajé de punta a punta.",
+    "items": {
+      "sellers": {
+        "title": "Universo de Sellers",
+        "tag": "Producto B2B",
+        "description": "Plataforma B2B para que el equipo interno y los sellers gestionen onboarding e integración en múltiples marketplaces. Como única responsable del frontend, la estructuré desde cero aplicando el patrón contenedor-vista, y diseñé sus pantallas con apoyo de IA."
+      },
+      "componentLibrary": {
+        "title": "Librería de componentes",
+        "tag": "Design system",
+        "description": "Sistema de componentes construido desde cero con Storybook y CSS Modules, adoptado en todas las aplicaciones de la compañía."
+      },
+      "colegioAbogados": {
+        "title": "Colegio de Abogados de La Plata",
+        "tag": "Freelance",
+        "description": "Desarrollo frontend completo de la aplicación del Colegio de Abogados de La Plata, como única responsable del frontend, con Refine, Ant Design y Styled Components. Colaboración estrecha con backend para definir flujos de datos y arquitectura."
+      },
+      "platform": {
+        "title": "Platform",
+        "tag": "Producto",
+        "description": "Platform, la aplicación que centraliza el acceso de los usuarios a los productos de Increase. Diseño de interfaces intuitivas y responsivas, con foco en accesibilidad y experiencia de usuario."
+      }
+    }
+  },
+  "Experience": {
+    "label": "Experiencia",
+    "heading": "Recorrido profesional",
+    "roles": {
+      "avenida": {
+        "period": "Abr 2025 — actualidad",
+        "role": "Software Developer",
+        "description": "Única responsable del frontend de Universo de Sellers. Estructuré la aplicación desde cero, tomé decisiones de producto y diseñé las pantallas con apoyo de IA."
+      },
+      "dynamicus": {
+        "period": "Nov 2023 — Sept 2025",
+        "role": "Frontend Developer (Freelance)",
+        "description": "Desarrollo completo del frontend en múltiples aplicaciones web, en colaboración estrecha con el equipo de backend."
+      },
+      "henry": {
+        "period": "Nov 2021 — Ene 2025",
+        "role": "Frontend Developer",
+        "description": "Implementación de funcionalidades clave y desarrollo desde cero de la librería de componentes de la compañía."
+      },
+      "increase": {
+        "period": "Ago 2020 — Nov 2021",
+        "role": "Frontend Developer",
+        "description": "Mantenimiento de la plataforma principal de usuarios y mejora continua de la experiencia de producto."
+      }
+    }
+  },
+  "Contact": {
+    "label": "Contacto",
+    "location": "Córdoba, Argentina · Disponible para trabajo remoto.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "downloadCv": "Descargar CV",
+    "footer": "Gisella Alaniz — hecho con Next.js, Tailwind CSS y Motion"
+  }
+}
